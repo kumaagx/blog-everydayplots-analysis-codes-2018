@@ -1,5 +1,4 @@
 # Instagram Hashtag Analysis In Python
-This is a Github repo for the code used in my blog post.
 
 Read the post here: https://www.everydayplots.com/instagram-hashtag-analysis-python/
 

@@ -1,5 +1,4 @@
 # Identifying Forced And Fake Twitter Trends Using R
-This is a Github repo for the code used in my blog post.
 
 Read the post here: https://www.everydayplots.com/identifying-forced-fake-twitter-trends-r/
 
