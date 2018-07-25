@@ -4,7 +4,7 @@ This Github repo contains all the data analysis codes (Python / R) for the blog 
 
 Here is a list of the blog posts I've published in 2018. For descriptions, read README files in individual post folders.
 
-Post 1: [Identifying Forced And Fake Twitter Trends Using R](https://www.everydayplots.com/identifying-forced-fake-twitter-trends-r/)
+Post 1: [Identifying Forced And Fake Twitter Trends Using R](https://www.everydayplots.com/identifying-forced-fake-twitter-trends-r/)  
 Post 2: [Instagram Hashtag Analysis In Python](https://www.everydayplots.com/instagram-hashtag-analysis-python/)
 
 More posts coming soon!
