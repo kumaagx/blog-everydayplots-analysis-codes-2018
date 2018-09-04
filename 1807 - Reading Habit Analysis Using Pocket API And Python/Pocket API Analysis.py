@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # Connect to the Pocket API
 # pocket_api variable stores the http response
 pocket_api = requests.post('https://getpocket.com/v3/oauth/request',
-                           data = {'consumer_key':'78124-23ae05df52291ea13b135dff',
+                           data = {'consumer_key':'12345-23ae05df52291ea13b135dff',
                                    'redirect_uri':'https://google.com'})
 
 # Check the response: if 200, then it means all OK
@@ -36,8 +36,8 @@ pocket_api.text
 # After authenticating in the browser, return here
 # Use your consumer_key and request_token below
 pocket_auth = requests.post('https://getpocket.com/v3/oauth/authorize',
-                            data = {'consumer_key':'78124-23ae05df52291ea13b135dff',
-                                    'code':'a1dc2a39-ab8c-af28-e235-25ddd4'})
+                            data = {'consumer_key':'12345-23ae05df52291ea13b135dff',
+                                    'code':'a1dc2a39-abcd-af28-e235-25ddd4'})
 
 # Check the response: if 200, then it means all OK
 # pocket_auth.status_code
@@ -53,8 +53,8 @@ pocket_auth.text
 # Get data from the API
 # Reference: https://getpocket.com/developer/docs/v3/retrieve
 pocket_add = requests.post('https://getpocket.com/v3/get',
-                           data= {'consumer_key':'78124-23ae05df52291ea13b135dff',
-                                  'access_token':'b07ff4be-f3d2-4685-2d70-d47816',
+                           data= {'consumer_key':'12345-23ae05df52291ea13b135dff',
+                                  'access_token':'b07ff4be-abcd-4685-2d70-d47816',
                                   'state':'all',
                                   'detailType':'simple'})
 
